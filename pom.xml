@@ -15,4 +15,16 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+   <distributionManagement>
+  <repository>
+	  <id>deploymentId</id>
+	  <name>Internal Releases</name>
+	  <url>http://192.168.2.171:8081/repository/wells.hosted.rel/</url>
+  </repository>
+  <snapshotRepository>
+	<id>deploymentId</id>
+	<name>Internal SNAPSHOT</name>
+	<url>http://192.168.2.171:8081/repository/wells.hosted.snapshot/</url>
+   </snapshotRepository>
+  </distributionManagement>
 </project>
